@@ -5,7 +5,7 @@ end
 end
  def assign_rooms(namearray)
 counter = 1
-namearray.map do |name|
+namearray.map do |name|irb
 puts "Hello, #{name}! You will be assigned to room #{counter}."
 counter = counter + 1
 end
