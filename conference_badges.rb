@@ -14,4 +14,3 @@ end
 batch_badge_creator(namearray)
 assign_rooms(namearray)
 end 
- print(namearray) 
