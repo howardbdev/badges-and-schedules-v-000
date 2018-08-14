@@ -1,16 +1,17 @@
-def batch_badge_creator(namearray)
-namearray.map do |name|
-puts "Hello, my name is #{name}."
+def badge_maker(names)
+  array_names.each do |names|
+    puts "Hello, my name is #{names}"
+  end
 end
+ def batch_badge_creator(array_names)
+  array_names.each do |names|
+    puts "Badge Name: #{names}" 
+  end
 end
- def assign_rooms(namearray)
-counter = 1
-namearray.map do |name|
-puts "Hello, #{name}! You will be assigned to room #{counter}."
-counter = counter + 1
+ room = 0
+def assign_rooms(names, room)
+  array_names.collect.each do |names|
+    puts "Hello #{names}, you will be assigned to Room ##{room + 1}"
+    badge_maker(names)
+  end
 end
-end
- def print(namearray)
-batch_badge_creator(namearray)
-assign_rooms(namearray)
-end 
